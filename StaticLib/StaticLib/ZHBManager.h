@@ -10,8 +10,23 @@
 
 @interface ZHBManager : NSObject
 
+
+/**
+ 单例
+
+ @return 实例
+ */
 + (instancetype)shareManager;
 
+
+/**
+ 求和
+
+ @param num1 参数1
+ @param num2 参数2
+
+ @return 和
+ */
 - (int)sumWithNum1:(int)num1 num2:(int)num2;
 
 @end
