@@ -1,0 +1,2 @@
+# ZHBStaticLib
+static lib test
